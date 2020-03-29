@@ -39,8 +39,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Frame"
-            android:textColor="@android:color/black" />
+            android:text="Green"
+            android:textColor="@android:color/holo_green_dark" />
 
         <TextView
             android:id="@+id/frame_info"
@@ -48,8 +48,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="right"
-            android:text="640*480"
-            android:textColor="@android:color/black" />
+            android:text="Low Carbon Emissions"
+            android:textColor="@android:color/holo_green_dark" />
     </LinearLayout>
 
     <LinearLayout
@@ -62,8 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Crop"
-            android:textColor="@android:color/black" />
+            android:text="Yellow"
+            android:textColor="@color/tfe_color_primary" />
 
         <TextView
             android:id="@+id/crop_info"
@@ -71,8 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="right"
-            android:text="640*480"
-            android:textColor="@android:color/black" />
+            android:text="Medium Carbon Emissions"
+            android:textColor="@color/tfe_color_primary" />
     </LinearLayout>
 
 
@@ -87,8 +87,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Inference Time"
-            android:textColor="@android:color/black" />
+            android:text="Red"
+            android:textColor="#F00" />
 
         <TextView
             android:id="@+id/inference_info"
@@ -96,8 +96,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="right"
-            android:text="640*480"
-            android:textColor="@android:color/black" />
+            android:text="High Carbon Emissions"
+
+            android:textColor="#F00" />
     </LinearLayout>
 
     <View
