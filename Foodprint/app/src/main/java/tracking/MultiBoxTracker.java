@@ -145,7 +145,7 @@ public class MultiBoxTracker {
 
       final String labelString =
           !TextUtils.isEmpty(recognition.title)
-              ? String.format("%s %.2f", recognition.title, (100 * recognition.detectionConfidence))
+              ? String.format("%s %.2f", carbon(recognition.title), (100 * recognition.detectionConfidence))
               : String.format("%.2f", (100 * recognition.detectionConfidence));
       //            borderedText.drawText(canvas, trackedPos.left + cornerSize, trackedPos.top,
       // labelString);
@@ -208,4 +208,282 @@ public class MultiBoxTracker {
     int color;
     String title;
   }
+
+  private String carbon(String input) {
+    String result;
+    switch (input){
+      case "giraffe":
+        result= input + " 100" + " Co2e";
+        break;
+      case "backpack":
+        result= input + " 100" + " Co2e";
+        break;
+      case "umbrella":
+        result= input + " 100" + " Co2e";
+        break;
+      case "handbag":
+        result= input + " 100" + " Co2e";
+        break;
+      case "tie":
+        result= input + " 100" + " Co2e";
+        break;
+      case "suitcase":
+        result= input + " 100" + " Co2e";
+        break;
+      case "frisbee":
+        result= input + " 100" + " Co2e";
+        break;
+      case "skis":
+        result= input + " 100" + " Co2e";
+        break;
+      case "snowboard":
+        result= input + " 100" + " Co2e";
+        break;
+      case "sports":
+        result= input + " 100" + " Co2e";
+        break;
+      case "ball":
+        result= input + " 100" + " Co2e";
+        break;
+      case "kite":
+        result= input + " 100" + " Co2e";
+        break;
+      case "baseball":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bat":
+        result= input + " 100" + " Co2e";
+        break;
+      case "glove":
+        result= input + " 100" + " Co2e";
+        break;
+      case "skateboard":
+        result= input + " 100" + " Co2e";
+        break;
+      case "surfboard":
+        result= input + " 100" + " Co2e";
+        break;
+      case "tennis":
+        result= input + " 100" + " Co2e";
+        break;
+      case "racket":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bottle":
+        result= input + " 100" + " Co2e";
+        break;
+      case "wine":
+        result= input + " 100" + " Co2e";
+        break;
+      case "glass":
+        result= input + " 100" + " Co2e";
+        break;
+      case "cup":
+        result= input + " 100" + " Co2e";
+        break;
+      case "fork":
+        result= input + " 100" + " Co2e";
+        break;
+      case "knife":
+        result= input + " 100" + " Co2e";
+        break;
+      case "spoon":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bowl":
+        result= input + " 100" + " Co2e";
+        break;
+      case "banana":
+        result= input + "  0.2734" + " Co2e";
+        break;
+      case "apple":
+        result= input + "  0.2347" + " Co2e";
+        break;
+      case "sandwich":
+        result= input + " 100" + " Co2e";
+        break;
+      case "orange":
+        result= input + " 0.0972" + " Co2e";
+        break;
+      case "broccoli":
+        result= input + " 100" + " Co2e";
+        break;
+      case "carrot":
+        result= input + " 100" + " Co2e";
+        break;
+      case "hot dog":
+        result= input + " 100" + " Co2e";
+        break;
+      case "pizza":
+        result= input + " 100" + " Co2e";
+        break;
+      case "donut":
+        result= input + " 100" + " Co2e";
+        break;
+      case "cake":
+        result= input + " 100" + " Co2e";
+        break;
+      case "chair":
+        result= input + " 100" + " Co2e";
+        break;
+      case "couch":
+        result= input + " 100" + " Co2e";
+        break;
+      case "???":
+        result= input + " 100" + " Co2e";
+        break;
+      case "person":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bicycle":
+        result= input + " 100" + " Co2e";
+        break;
+      case "car":
+        result= input + " 100" + " Co2e";
+        break;
+      case "motorcycle":
+        result= input + " 100" + " Co2e";
+        break;
+      case "airplane":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bus":
+        result= input + " 100" + " Co2e";
+        break;
+      case "train":
+        result= input + " 100" + " Co2e";
+        break;
+      case "truck":
+        result= input + " 100" + " Co2e";
+        break;
+      case "boat":
+        result= input + " 100" + " Co2e";
+        break;
+      case "traffic":
+        result= input + " 100" + " Co2e";
+        break;
+      case "light":
+        result= input + " 100" + " Co2e";
+        break;
+      case "fire":
+        result= input + " 100" + " Co2e";
+        break;
+      case "hydrant":
+        result= input + " 100" + " Co2e";
+        break;
+      case "stop":
+        result= input + " 100" + " Co2e";
+        break;
+      case "sign":
+        result= input + " 100" + " Co2e";
+        break;
+      case "parking":
+        result= input + " 100" + " Co2e";
+        break;
+      case "meter":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bench":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bird":
+        result= input + " 100" + " Co2e";
+        break;
+      case "cat":
+        result= input + " 100" + " Co2e";
+        break;
+      case "dog":
+        result= input + " 100" + " Co2e";
+        break;
+      case "horse":
+        result= input + " 100" + " Co2e";
+        break;
+      case "sheep":
+        result= input + " 100" + " Co2e";
+        break;
+      case "cow":
+        result= input + " 100" + " Co2e";
+        break;
+      case "elephant":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bear":
+        result= input + " 100" + " Co2e";
+        break;
+      case "zebra":
+        result= input + " 100" + " Co2e";
+        break;
+      case "potted plant":
+        result= input + " 100" + " Co2e";
+        break;
+      case "bed":
+        result= input + " 100" + " Co2e";
+        break;
+      case "dining table":
+        result= input + " 100" + " Co2e";
+        break;
+      case "toilet":
+        result= input + " 100" + " Co2e";
+        break;
+      case "tv":
+        result= input + " 215" + " Co2e";
+        break;
+      case "laptop":
+        result= input + " 350" + " Co2e";
+        break;
+      case "mouse":
+        result= input + " 100" + " Co2e";
+        break;
+      case "remote":
+        result= input + " 100" + " Co2e";
+        break;
+      case "keyboard":
+        result= input + " 100" + " Co2e";
+        break;
+      case "cell phone":
+        result= input + " 100" + " Co2e";
+        break;
+      case "microwave":
+        result= input + " 39" +
+                "" + " Co2e";
+        break;
+      case "oven":
+        result= input + " 100" + " Co2e";
+        break;
+      case "toaster":
+        result= input + " 100" + " Co2e";
+        break;
+      case "sink":
+        result= input + " 100" + " Co2e";
+        break;
+      case "refrigerator":
+        result= input + " 100" + " Co2e";
+        break;
+      case "book":
+        result= input + " 100" + " Co2e";
+        break;
+      case "clock":
+        result= input + " 100" + " Co2e";
+        break;
+      case "vase":
+        result= input + " 100" + " Co2e";
+        break;
+      case "scissors":
+        result= input + " 100" + " Co2e";
+        break;
+      case "teddy bear":
+        result= input + " 100" + " Co2e";
+        break;
+      case "hair drier":
+        result= input + " 100" + " Co2e";
+        break;
+      case "toothbrush":
+        result= input + " 100" + " Co2e";
+        break;
+      default:
+        result= "";
+    }
+    return result;
+  }
 }
+
